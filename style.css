@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+span {
+  text-decoration: none;
+  color: #000; /* Text color for the brand */
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0% 0% 0% 18%;
+}
+
+main {
+  background: linear-gradient(to right, #ff66cc 0%, #ffcc66 80%);
+}
+
+.container {
+  background-image: url("./img1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+
+.text-area {
+  background-color: rgb(255 108 94 / 50%);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  width: 50%;
+}
+
+hr {
+  width: 0 auto;
+  margin: 50px;
+  border: none;
+  height: 2px;
+  padding: 2.2px;
+  background-color: #333;
+}
+
+.text {
+  font-size: 36px;
+}
+
+.p-text {
+  font-size: 24px;
+}
+
+.order-now h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.order-items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 300px;
+  margin: 4% auto;
+  text-align: center;
+  border-radius: 0 25%;
+}
+
+.item img {
+  max-height: 200px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0 25% 0 0;
+}
+
+.item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.item {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4%;
+}
+
+.trans-button {
+  background-color: rgb(255 255 255 / 50%);
+  border: 0px;
+  border-radius: 35px;
+  color: black;
+  padding: 15px 55px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.trans-button:hover {
+  background-color: #fff;
+  color: #000;
+}
